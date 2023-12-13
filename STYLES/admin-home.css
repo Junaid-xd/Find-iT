@@ -1,0 +1,105 @@
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
+}
+
+.js-profile-div
+{
+  height: 35vmax;
+}
+.name-div
+{
+  margin-top: 5vmax;
+  margin-bottom: 3vmax;
+  font-size: 30px;
+}
+
+.table
+{
+  border: 2px solid black;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  margin-top: 2vmax;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table thead
+{
+  background-color: rgb(223, 90, 90);
+  color: #fff;
+  height: 40px;
+  font-size: 20px;
+}
+
+.row
+{
+  padding: 10px;
+  width: 100%;
+  color: black;
+}
+
+.js-table-body tr
+{
+  border-bottom: 1px solid black;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+}
+
+
+.block-btn
+{
+  border: 2px solid rgb(0, 0, 128);
+  background-color: #fff;
+  font-weight: bold;
+  color: rgb(0, 0, 128);
+}
+.del-btn
+{
+  border: 2px solid red;
+  background-color: #fff;
+  font-weight: bold;
+  color: red;
+}
+
+.block-btn:hover
+{
+  background-color: rgb(0, 0, 128);
+  color: #fff;
+}
+.del-btn:hover
+{
+  background-color: red;
+  color: #fff;
+}
+
+.space
+{
+  margin-left: 15px;
+}
+
+
+.right-div-a
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(223, 90, 90);
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: 40vmax;
+}
+
+
+
+
+
+
+
+.green-btn
+{
+  border: none;
+  color: #fff;
+  background-color: green;
+}

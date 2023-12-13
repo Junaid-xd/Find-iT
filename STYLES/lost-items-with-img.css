@@ -1,0 +1,20 @@
+
+
+.lost-item-button
+{
+  background-color: black;
+}
+
+.current-status
+{
+  background-color: red;
+  padding: 3px;
+}
+.status-div
+{
+  padding: 5px;
+}
+.name-div-p
+{
+  border: none;
+}
