@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../STYLES/nav-bar.css">
+  <link rel="stylesheet" href="../STYLES/edit-your-profile.css">
+  <title>Update Profile</title>
+</head>
+<body>
+
+ 
+
+
+
+  <div class="profile-div js-profile-div">
+    <div class="back-div">
+      <img src="../images/arrow-go-back-fill.png">
+    </div>
+
+
+    <div class="info-div">
+      <div class="input-div">
+        <input id="img-input" type="file" accept="image/*" class="input-element">
+      </div>
+
+      <div class="profile-pic-div">
+        <label for="img-input"><img id="img-input" src="../images/Default.jpeg" class="profile-pic"></label>
+      </div>
+
+      <div class="name-div name-div-p">
+      </div>
+    </div>
+
+    <!-- <div class="change-password-div">
+      <a href="">Change Password</a>
+    </div> -->
+
+    <a href="../HTML/edit-your-profile.html" class="links"><div class="change-password-div">Edit Profile</div></a>
+
+    <!-- <div class="your-posts-div">
+      <a href="../HTML/your-posts-images.html">Your Posts</a>
+    </div> -->
+    <a href="../HTML/your-posts-images.html" class="links">
+      <div class="your-posts-div">Edit your posts</div>
+    </a>
+
+    <!-- <div class="home-div">
+      <a href="../HTML/home.html">Go to Home</a>
+    </div> -->
+    
+    <a href="../HTML/home.html" class="links">
+      <div class="home-div">Go to Home</div>
+    </a>
+
+    <div class="logout-div">
+      <a href="/index.html"><button class="logout-btn">Log-Out</button></a>
+    </div>
+  </div>
+
+
+
+  <div class="nav-cantainer">
+    <div class="upper-part-div">
+      <div class="left-div">
+        <div class="menu-div"><img src="../images/menu-fill.png" class="menu-logo js-menu-logo"></div>
+        <div class="logo-div"><img src="../images/Find iT logo 1 (Edited).png" class="logo"></div>
+      </div>
+    </div>
+  </div>  
+
+
+
+  <div class="wrapper">
+
+    <div class="write-div">
+      <h3>UPDATE </h3>
+      <h3>YOUR</h3>
+      <h3>PROFILE</h3>
+    </div>
+
+    <div class="right-div">
+
+      <div class="more-gather">
+
+        <div class="gather-div">
+          <div class="img-div">
+            <img src="../images/Find iT logo 1 (Edited).png" accept="images/jpeg, images/jpg, images/png" class="logo-1">
+          </div>
+  
+          <div class="form-div">
+            <div class="name-div">
+              <div class="per">NAME</div>
+              <div><input type="text" class="js-name-ele"></div>
+            </div>
+            
+            <div class="contact-div">
+              <div class="per">CONTACT</div>
+              <div><input type="number" class="js-contact-ele"></div>
+            </div>
+
+
+            <div class="old-pass-div">
+              <div class="per">Old Password</div>
+              <div><input type="text" class="js-oldpass-ele"></div>
+            </div>
+      
+            <div class="password-div">
+              <div class="per">NEW PASSWORD</div>
+              <div><input type="password" class="js-password-ele"></div>
+            </div>
+
+            <div class="incorrect-div">
+              
+            </div>
+      
+          </div>
+          
+          <div class="button-div">
+            <button class="update-btn">UPDATE</button>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+  </div>
+
+  
+
+  
+
+
+  <script type="module" src="../JS/nav-bar.js"></script>
+  <script type="module" src="../JS/edit-your-profile.js"></script>
+</body>
+</html>

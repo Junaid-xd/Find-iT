@@ -346,6 +346,12 @@ body
 }
 
 
+.js-profile-div
+{
+  font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
+  height: 35vmax;
+}
+
 .links
 {
   text-decoration: none;

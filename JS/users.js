@@ -91,6 +91,32 @@ export function returnContact(reg)
   return tempContact;
 }
 
+export function returnPassword(reg)
+{
+  let tempPass;
+  users.forEach((users)=>{
+    if(users.reg === reg)
+    {
+      tempPass = users.password;
+    }
+  });
+  return tempPass;
+}
+
+export function updateUserData(reg ,nName, nContact, nPass)
+{
+  users.forEach((user)=>{
+    if(user.reg === reg)
+    {
+      user.password = nPass;
+      user.name = nName;
+      user.contactNo = nContact;
+      user.password = nPass;
+    }
+  });
+  saveUsersToStorage();
+}
+
 export function returnProfilePic(reg)
 {
   let tempPic;
