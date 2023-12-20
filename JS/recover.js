@@ -7,43 +7,11 @@ export let recoveredItemsWithDescription = JSON.parse(localStorage.getItem('reco
 
 if(!recoveredItemsWithImages)
 {
-  // recoveredItemsWithImages = [{
-  //   picSrc:'../images/founded items/wallet.jpeg',
-  //   location:'Near Cafe',
-  //   reg:'1',
-  //   productName: 'Wallet',
-  //   postID:1
-  // },{
-  //   picSrc:'../images/founded items/Bag.jpg',
-  //   location:'CS Department',
-  //   reg:'2022-SE-41',
-  //   productName: 'Ladies Bag',
-  //   postID:2
-  // },{
-  //   picSrc:'../images/founded items/watch.jpg',
-  //   location:'Main Library',
-  //   reg:'2024-CE-01',
-  //   productName: 'WATCH',
-  //   postID:3
-  // }];
   useRecoverDefaultData();
 }
 
 if(!recoveredItemsWithDescription)
 {
-  // recoveredItemsWithDescription = [{
-  //   location:'Chemical Department',
-  //   reg:'1',
-  //   productName: 'NOTHING',
-  //   descriptionDetails:'FOUNDED ITEMS WITH DESCRIPTION PAGE',
-  //   postID:1
-  // },{
-  //   location:'HOSTEL B',
-  //   reg:'2024-CE-01',
-  //   productName: 'MOBILE',
-  //   descriptionDetails:'FOUNDED ITEMS WITH DESCRIPTION PAGE',
-  //   postID:2
-  // }];
   useRecoverDefaultData();
 }
 
@@ -66,13 +34,10 @@ saveRecoverItemsWithDes();
 
 export function addImgObjToRecoverArray(obj)
 {
-
-  console.log('YEH OBJ RECEIVE HO GYA HAI : ', obj);
-
   let bool = true;
   let len = recoveredItemsWithImages.length;
-  console.log('Length : ',len);
   let autoID = len;
+
   while(bool)
   {
     bool = false;
@@ -85,9 +50,6 @@ export function addImgObjToRecoverArray(obj)
     });
   }
 
-  console.log('GENERATED ID : ', autoID);
-  
-  
 
   const newObj = {
     picSrc : obj.picSrc,
@@ -107,13 +69,10 @@ export function addImgObjToRecoverArray(obj)
 
 export function addDesObjToRecoverArray(obj)
 {
-
-  console.log('YEH OBJ RECEIVE HO GYA HAI : ', obj);
-
   let bool = true;
   let len = recoveredItemsWithDescription.length;
-  console.log('Length : ',len);
   let autoID = len;
+
   while(bool)
   {
     bool = false;
@@ -125,8 +84,6 @@ export function addDesObjToRecoverArray(obj)
       }
     });
   }
-
-  console.log('GENERATED ID : ', autoID);
   
   
 

@@ -3,6 +3,7 @@ import { logIn } from "./users.js";
 
 
 let loginResult = false;
+
 document.querySelector('.js-log-in-button').addEventListener('click',()=>{
   const id = document.querySelector('.js-reg-ele').value;
   const pass = document.querySelector('.js-password-ele').value;
@@ -35,9 +36,9 @@ document.body.addEventListener('keydown',(event)=>{
     if(loginResult)
     {
       document.querySelector('.incorrect-id-pass-div').innerHTML='';
-        document.querySelector('.js-reg-ele').value = '';
-        document.querySelector('.js-password-ele').value = '';
-        window.location.assign("./HTML/home.html");
+      document.querySelector('.js-reg-ele').value = '';
+      document.querySelector('.js-password-ele').value = '';
+      window.location.assign("./HTML/home.html");
     }
     else
     {
@@ -47,7 +48,6 @@ document.body.addEventListener('keydown',(event)=>{
       document.querySelector('.js-reg-ele').value = '';
       document.querySelector('.js-password-ele').value = '';
     }
-    console.log(loginResult);
   }
 });
 

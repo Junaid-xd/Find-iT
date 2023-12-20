@@ -24,13 +24,7 @@ function createPost()
     else
     {
       alert('Please fill all the fields');
-    }
-  
-    // console.log(tempProName);
-    // console.log(tempLoc);
-    // console.log(tempDes);
-
-    
+    }    
   });
 }
 

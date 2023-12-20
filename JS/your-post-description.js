@@ -147,7 +147,6 @@ function interactiveDeleteButtons()
       {
         removeLostItemWithDes(ID);
         renderContent();
-        console.log('Chla toh hai');
       }
     });
   });
@@ -160,7 +159,6 @@ function interactiveRecoverButtons()
     button.addEventListener('click',()=>{
       const ID = button.getAttribute("data-recover-postID");
       const arrayN = button.getAttribute("data-array-name");
-      console.log('ID : ', ID, ' Array Name : ',arrayN);
   
       if(arrayN==='lost')
       {
@@ -172,7 +170,6 @@ function interactiveRecoverButtons()
       else
       {
         const obj = returnFoundItemWithDesObject(ID);
-        console.log('RETURNING OBJECT : ',obj);
         removeFoundedItemWithDes(obj.postID);
         addDesObjToRecoverArray(obj);
         renderContent();

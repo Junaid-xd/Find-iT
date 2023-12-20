@@ -57,7 +57,6 @@ function setProfilePic()
 {
   let img = document.querySelector('.profile-pic');
   img.src = returnProfilePic(key);
-  // console.log(img);
 }
 setProfilePic();
 

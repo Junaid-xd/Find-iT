@@ -21,11 +21,8 @@ function fillFormWithData()
 }
 fillFormWithData();
 
+
 document.querySelector('.update-btn').addEventListener('click', ()=>{
-
-  
-
-
 
   const oldPass = document.querySelector('.js-oldpass-ele').value;
   const nName = document.querySelector('.js-name-ele').value;
@@ -56,6 +53,4 @@ document.querySelector('.update-btn').addEventListener('click', ()=>{
     document.querySelector('.incorrect-div').innerHTML = 
       `<p>PLEASE FILL ALL INPUT FIELDS*</p>`;
   }
-  
-  
 });

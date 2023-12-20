@@ -8,8 +8,6 @@ const key = localStorage.getItem('key');
 
 
 
-
-
 function renderContent()
 {
   let content = document.querySelector('.js-grid');

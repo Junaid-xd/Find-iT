@@ -1,11 +1,6 @@
 import { returnName } from "./users.js";
 import { returnContact } from "./users.js";
-
 import { lostItemsWithImg } from "./lost.js";
-
-
-
-
 
 
 
@@ -13,7 +8,7 @@ import { lostItemsWithImg } from "./lost.js";
 function renderContent()
 {
   let content = document.querySelector('.js-grid');
-
+  
   lostItemsWithImg.forEach((lost)=>{
     const reg = lost.reg;
     const name = returnName(lost.reg);
@@ -21,7 +16,6 @@ function renderContent()
     const contact = returnContact(lost.reg);
     const imgLink = lost.picSrc;
     const proName = lost.productName;
-
 
     content.innerHTML+=`
     <div class="wrapper">

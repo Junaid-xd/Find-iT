@@ -54,11 +54,6 @@ function makePost()
     {
         alert('Please fill all the fields');
     }
-    // console.log(tempSrc);
-    // console.log(tempLocation);
-    // console.log(tempProName);
-
-    
   });
 }
 

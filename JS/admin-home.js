@@ -21,8 +21,6 @@ function renderAdminProfile()
 }
 
 
-// console.log(users);
-
 function renderContent()
 {
   renderAdminProfile();
@@ -86,7 +84,6 @@ document.querySelectorAll('.js-del-btn').forEach((button)=>{
     removeAllLostPosts(registrationNo);
     removeAllRecoverdPosts(registrationNo);
     removeUser(registrationNo);
-    // alert('The user deleted with REG : ', registrationNo);
     alert(`The user deleted with REG : ${registrationNo}`);
     location.reload();
   });

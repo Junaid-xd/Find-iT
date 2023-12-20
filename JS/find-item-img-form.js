@@ -26,7 +26,9 @@ function returnPicSrc(callback) {
 
             // Read the file as a data URL
             reader.readAsDataURL(selectedFile);
-        } else {
+        } 
+        else 
+        {
             alert('Please select a valid image file.');
         }
     });
@@ -46,9 +48,6 @@ function makePost()
     const tempProName = document.querySelector('.js-name-input').value;
     const tempLocation = document.querySelector('.js-location-input').value;
 
-    // console.log(tempSrc);
-    // console.log(tempLocation);
-    // console.log(tempProName);
     if(tempProName!=='' && tempLocation!=='' && tempSrc!== void 0)
     {
         addImgObjToFoundedArray(key, tempSrc, tempLocation, tempProName);
@@ -61,10 +60,6 @@ function makePost()
     {
         alert('Please  fill all the fields');
     }
-
-    
-
-    
   });
 }
 

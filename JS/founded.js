@@ -203,10 +203,8 @@ export function addImgObjToFoundedArray(key, nSrc, nLocation, nName)
     postID:autoID
   };
 
-  console.log('Yeh obj bna hai : ', nObj);
   foundedItems.push(nObj);
   saveFoundedWithImgToStorage();
-
 
   foundedItems.forEach((found)=>{
     console.log(found);
@@ -217,7 +215,6 @@ export function addDesObjToFoundedArray(key, nDes, nLocation, nName)
 {
   let bool = true;
   let len = foundItemsWithDes.length;
-  console.log('Length : ',len);
   let autoID = len;
   while(bool)
   {
@@ -239,7 +236,6 @@ export function addDesObjToFoundedArray(key, nDes, nLocation, nName)
     postID:autoID
   };
 
-  console.log('Yeh obj bna hai : ', nObj);
   foundItemsWithDes.push(nObj);
   saveFoundedWithDesToStorage();
 }
@@ -256,7 +252,6 @@ function removerFoundItemWithImgWithReg(reg)
   foundedItems.length=0;
   foundedItems = tempArray;
   saveFoundedWithImgToStorage();
-  console.log('YEH FOUNDED IMG ARRAY I HAI : ', tempArray);
 
 }
 
@@ -272,7 +267,6 @@ function removerFoundItemWithDesWithReg(reg)
   foundItemsWithDes.length=0;
   foundItemsWithDes = tempArray;
   saveFoundedWithDesToStorage();
-  console.log('YEH FOUNDED DES ARRAY I HAI : ', tempArray);
 }
 
 
