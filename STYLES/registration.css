@@ -101,3 +101,8 @@ p {
   align-items: center;
   margin-top: 15px;
 }
+
+.write-div span
+{
+  margin-left: 65px;
+}
