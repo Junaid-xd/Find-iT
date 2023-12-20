@@ -12,7 +12,7 @@ document.querySelector('.js-log-in-button').addEventListener('click',()=>{
     document.querySelector('.incorrect-id-pass-div').innerHTML='';
       document.querySelector('.js-reg-ele').value = '';
       document.querySelector('.js-password-ele').value = '';
-      window.location.assign("../HTML/home.html");
+      window.location.assign("./HTML/home.html");
   }
   else
   {
@@ -37,7 +37,7 @@ document.body.addEventListener('keydown',(event)=>{
       document.querySelector('.incorrect-id-pass-div').innerHTML='';
         document.querySelector('.js-reg-ele').value = '';
         document.querySelector('.js-password-ele').value = '';
-        window.location.assign("../HTML/home.html");
+        window.location.assign("./HTML/home.html");
     }
     else
     {
