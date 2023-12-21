@@ -11,7 +11,7 @@
   height: 19vmax;
   border-bottom: 1px solid black;
   word-wrap: break-word;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   overflow: hidden;
 }
 

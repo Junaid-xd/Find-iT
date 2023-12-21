@@ -10,10 +10,10 @@ document.querySelector('.js-log-in-button').addEventListener('click',()=>{
   if(loginResult)
   {
     document.querySelector('.incorrect-id-pass-div').innerHTML='';
-      document.querySelector('.js-reg-ele').value = '';
-      document.querySelector('.js-password-ele').value = '';
-      localStorage.setItem('adminKey', id);
-      window.location.assign("../HTML/admin-home.html");
+    document.querySelector('.js-reg-ele').value = '';
+    document.querySelector('.js-password-ele').value = '';
+    localStorage.setItem('adminKey', id);
+    window.location.assign("../HTML/admin-home.html");
   }
   else
   {

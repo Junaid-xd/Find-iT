@@ -129,13 +129,13 @@ export function useRecoverDefaultData()
     location:'Chemical Department',
     reg:'1',
     productName: 'NOTHING',
-    descriptionDetails:'FOUNDED ITEMS WITH DESCRIPTION PAGE',
+    descriptionDetails:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quae fuga ab similique laudantium, ex unde nostrum aspernatur beatae quibusdam, officiis eos rerum! Omnis earum aperiam molestiae perferendis officia sed pariatur quas magni, impedit porro sunt adipisci ab, quam neque.',
     postID:1
   },{
     location:'HOSTEL B',
     reg:'2024-CE-01',
     productName: 'MOBILE',
-    descriptionDetails:'FOUNDED ITEMS WITH DESCRIPTION PAGE',
+    descriptionDetails:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quae fuga ab similique laudantium, ex unde nostrum aspernatur beatae quibusdam, officiis eos rerum! Omnis earum aperiam molestiae perferendis officia sed pariatur quas magni, impedit porro sunt adipisci ab, quam neque.',
     postID:2
   }];
 

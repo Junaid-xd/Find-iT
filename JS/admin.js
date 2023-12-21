@@ -54,7 +54,6 @@ export function addAdmin(nName, nID, nPass)
   };
   admin.push(tempAdmin);
   saveAdminToStorage();
-  console.log(admin);
 }
 
 function saveAdminToStorage()
